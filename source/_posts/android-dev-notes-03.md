@@ -21,26 +21,26 @@ tags:
 参考这个Gist：[build.gradle](https://gist.github.com/mcxiaoke/8450376)
 
 ###透明的Activity退出后，没有真正finish的问题
-具体见 
-[这里的分析](http://blog.sina.com.cn/s/blog_601cbd070100npf8.html)  
+具体见 [这里的分析](http://blog.sina.com.cn/s/blog_601cbd070100npf8.html)
 android:windowShowWallpaper = true的作用，这并不是在后面显示桌面，是配置Activity的背景为桌面背景
 
 ###Background和Seletor必须使用真实的Drawable
-否则，有些三星和摩托的机子上会没有背景，显示纯黑色
-定义在colors.xml里的伪drawble不行  
-```
-<color name="mail_published_time_color">#bcbcbc</color>  
+
+否则，有些三星和摩托的机子上会没有背景，显示纯黑色，定义在colors.xml里的伪drawble不行
+
+```xml
+<color name="mail_published_time_color">#bcbcbc</color>
 <drawable name="ab_bg_black">#aa191919</drawable>
-```  
+```
+
 
 必须是真实的图片drawable或者定义好的shape
 
 ###合并多个git仓库，保留commit记录的方法
-详情见  
-[How to import existing GIT repository into another](http://stackoverflow.com/questions/1683531/how-to-import-existing-git-repository-into-another)  
-[合并已存在的git仓库](https://github.com/deercoder/Linux/blob/master/Git/git_merge_local_repos.md)  
+详情见[How to import existing GIT repository into another](http://stackoverflow.com/questions/1683531/how-to-import-existing-git-repository-into-another)和[合并已存在的git仓库](https://github.com/deercoder/Linux/blob/master/Git/git_merge_local_repos.md)
 
 ###WebView浏览位置的保存和恢复
+
 ```
     // 保存位置
     public float savePosition() {
@@ -69,7 +69,9 @@ android:windowShowWallpaper = true的作用，这并不是在后面显示桌面�
 ```
 
 ###使用拨号键盘的SecretCode功能
-Android的拨号键盘有一些特殊的定义键，可以启动自定义的Intent，用法：  
+
+Android的拨号键盘有一些特殊的定义键，可以启动自定义的Intent，用法：
+
 ```
 <receiver android:name=".receiver.DiagnoserReceiver">
     <intent-filter>
@@ -79,20 +81,20 @@ Android的拨号键盘有一些特殊的定义键，可以启动自定义的Inte
 </receiver>
 ```
 
-参考资料：  
-[Create a secret doorway to your app](http://udinic.wordpress.com/2013/05/17/create-a-secret-doorway-to-your-app/)  
-[Secret_Star_Codes](https://code.google.com/p/android-roms/wiki/Secret_Star_Codes)  
+参考资料：
+[Create a secret doorway to your app](http://udinic.wordpress.com/2013/05/17/create-a-secret-doorway-to-your-app/)
+[Secret_Star_Codes](https://code.google.com/p/android-roms/wiki/Secret_Star_Codes)
 
 
 ###阻止点击DrawLayout时事件传递到下一层  
-方法是给Drawlayout添加一个OnClickListener  
-参考资料：  
-[How do I keep DrawerLayout from passing touch events to the underlying view](http://stackoverflow.com/questions/18811973/android-how-do-i-keep-drawerlayout-from-passing-touch-events-to-the-underlying)  
+方法是给Drawlayout添加一个OnClickListener
+参考资料：
+[How do I keep DrawerLayout from passing touch events to the underlying view](http://stackoverflow.com/questions/18811973/android-how-do-i-keep-drawerlayout-from-passing-touch-events-to-the-underlying)
 
 ###没有root的情况下如何adb pull /data/data/package/下的数据
-下面是一个查看应用数据库的例子脚本：  
+下面是一个查看应用数据库的例子脚本：
+
 ```
-#!/usr/bin/env bash
 PACKAGE_NAME=com.your.package
 DB_NAME=data.db
 rm -rf ${DB_NAME}
@@ -102,11 +104,12 @@ adb shell "run-as ${PACKAGE_NAME} chmod 600 /data/data/${PACKAGE_NAME}/databases
 sqlite3 /tmp/${DB_NAME
 ```
 
-分析见：  
- [android adb, retrieve database using run-as](http://stackoverflow.com/questions/18471780/android-adb-retrieve-database-using-run-as)  
-[Access Android app data without root](http://blog.shvetsov.com/2013/02/access-android-app-data-without-root.html)  
+分析见：
+ [android adb, retrieve database using run-as](http://stackoverflow.com/questions/18471780/android-adb-retrieve-database-using-run-as)
+[Access Android app data without root](http://blog.shvetsov.com/2013/02/access-android-app-data-without-root.html)
 
 ###快速获取电池电量的方法
+
 ```
     public static Intent getBatteryStatus(Context context) {
         Context appContext = context.getApplicationContext();
@@ -132,24 +135,19 @@ sqlite3 /tmp/${DB_NAME
     }
 ```
 
-分析见：  
-[Get battery level before broadcast receiver responds for Intent.ACTION_BATTERY_CHANGED](http://stackoverflow.com/questions/3661464/get-battery-level-before-broadcast-receiver-responds-for-intent-action-battery-c)  
+分析见：[Get battery level before broadcast receiver responds for Intent.ACTION_BATTERY_CHANGED](http://stackoverflow.com/questions/3661464/get-battery-level-before-broadcast-receiver-responds-for-intent-action-battery-c)
 
 ###ActionBar的Title是否可以点击的问题
-4.2之前和之后这个有变化，4.2之前只有Icon可以点击，如果没有Icon，Title就无法点击，4.2之后是Title和Icon一起作为点击区域  
-分析见：  
-[Action Bar icon as up enabled not the title](http://stackoverflow.com/questions/16209963/action-bar-icon-as-up-enabled-not-the-title/16216966#16216966) 
+4.2之前和之后这个有变化，4.2之前只有Icon可以点击，如果没有Icon，Title就无法点击，4.2之后是Title和Icon一起作为点击区域
+分析见：[Action Bar icon as up enabled not the title](http://stackoverflow.com/questions/16209963/action-bar-icon-as-up-enabled-not-the-title/16216966#16216966) 
 
 ###Webview滚动时背景闪烁的问题
 因是渲染帧数不够
-如果使用软件渲染，看下文：  
-[Strange webview black blinking when scrolling](http://stackoverflow.com/questions/17315815/strange-webview-black-blinking-when-scrolling)  
-或者启用硬件加速
+如果使用软件渲染，看下文：[Strange webview black blinking when scrolling](http://stackoverflow.com/questions/17315815/strange-webview-black-blinking-when-scrolling)，或者启用硬件加速
 
 
 ###Java中使用try catch的性能问题
-使用try catch并没有额外的性能损耗，只有异常真正发生时才会有性能损耗，详细分析见：   
-[Should java try blocks be scoped as tightly as possible](http://stackoverflow.com/questions/2633834/should-java-try-blocks-be-scoped-as-tightly-as-possible)
+使用try catch并没有额外的性能损耗，只有异常真正发生时才会有性能损耗，详细分析见：[Should java try blocks be scoped as tightly as possible](http://stackoverflow.com/questions/2633834/should-java-try-blocks-be-scoped-as-tightly-as-possible)
 
 
 
