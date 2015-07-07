@@ -1,10 +1,12 @@
-Title: Ubuntu软件安装和使用配置
-Date: 2011-05-30 14:00
-Author: mcxiaoke
-Category: Linux
-Tags: Ubuntu
-Slug: ubuntu-install-software-and-config
-
+title: Ubuntu软件安装和使用配置
+date: 2011-05-30 14:00
+author: mcxiaoke
+categories: 
+- Linux
+tags: 
+- Ubuntu
+#slug: ubuntu-install-software-and-config
+---
 * 2011.05.06 Ver 1.0
 * 2011.05.11 Ver 1.1
 * 2011.05.12 Ver 1.2

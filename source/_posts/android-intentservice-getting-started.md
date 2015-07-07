@@ -1,10 +1,13 @@
-Title: Android IntentService使用简介
-Date: 2011-02-01 22:46
-Author: mcxiaoke
-Category: Android
-Tags: Android,Service
-Slug: android-intentservice-getting-started
-
+title: Android IntentService使用简介
+date: 2011-02-01 22:46
+author: mcxiaoke
+categories: 
+- Android
+tags: 
+- Android
+- Service
+#slug: android-intentservice-getting-started
+---
 春节放假有点自己的时间，准备抽空做个饭否上传照片的工具，其中上传功能需要用到后台任务，Android上的后台任务主要有三种实现方式，一是按照常规的Java方式，自己写线程，二是使用SDK封装好的后台任务类AsyncTask，三是使用Service，线程和AsyncTask都是和Activity的生命周期绑定的，而Service有自己的独立生命周期，考虑到以后的扩展和代码的清晰，决定使用Service，看到国外的博客和Google
 Groups里面都推荐使用IntentService，网上搜了一下，几乎没有中文的资料，于是决定记录一下学习使用IntentService的笔记。
 

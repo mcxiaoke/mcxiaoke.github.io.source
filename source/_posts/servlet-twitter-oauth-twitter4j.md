@@ -1,10 +1,14 @@
-Title: 在Servlet中使用Twitter OAuth认证
-Date: 2010-10-31 22:09
-Author: mcxiaoke
-Category: Java
-Tags: Twitter, Java, OAuth
-Slug: servlet-twitter-oauth-twitter4j
-
+title: 在Servlet中使用Twitter OAuth认证
+date: 2010-10-31 22:09
+author: mcxiaoke
+categories: 
+- Java
+tags: 
+- Twitter
+- Java
+- OAuth
+#slug: servlet-twitter-oauth-twitter4j
+---
 例子来自Twitter4j的作者，我自己的代码等完善了再发布：
 
 主要原理是在Twitter验证完毕后重定向到Callback的网址时，获取网址后面的oauth_verifier参数，进而获取AccessToken，并存储供以后使用。

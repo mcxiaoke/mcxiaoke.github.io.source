@@ -1,10 +1,13 @@
-Title: Android开发杂记（一）
-Date: 2011-02-26 16:53
-Author: mcxiaoke
-Category: Android
-Tags: Android, Tips
-Slug: android-dev-notes-01
-
+title: Android开发杂记（一）
+date: 2011-02-26 16:53
+author: mcxiaoke
+categories: 
+- Android
+tags: 
+- Android
+- Tips
+#slug: android-dev-notes-01
+---
 这些是这半年做Android开发的小部分技巧记录，摘录自我的Tweets，大部分没有发在Twitter上的以后想起来了再记一下
 
 * android:layout_alignLeft 指该控件距离边父控件的边距，android:paddingLeft 指该控件内部内容，如文本距离该控件的边距.当按钮分别设置以上两个属性时，效果不一样的 android:paddingLeft=”30px”，按钮上设置的内容（例如图片）离按钮左边边界30个像素 android:layout_marginLeft=”30px”，整个按钮离左边设置的内容30个像素

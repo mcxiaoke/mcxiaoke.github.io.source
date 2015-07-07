@@ -1,10 +1,14 @@
-Title: 在VPS上配置Nginx和PHP
-Date: 2014-06-30 14:00
-Author: mcxiaoke
-Category: Web
-Tags: Nginx, PHP, VPS
-Slug: vps-nginx-php5-fpm-config
-
+title: 在VPS上配置Nginx和PHP
+date: 2014-06-30 14:00
+author: mcxiaoke
+categories: 
+- Web
+tags: 
+- Nginx
+- PHP
+- VPS
+#slug: vps-nginx-php5-fpm-config
+---
 之前买了一个廉价VPS，系统是Ubuntu 12.04，一直没有用上，最近装上Nginx和PHP，下面就是配置记录。
 
 首先当然是安装各种必备的工具：

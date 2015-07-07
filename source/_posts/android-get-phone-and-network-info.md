@@ -1,10 +1,14 @@
-Title: Android中检测手机网络类型
-Date: 2010-11-03 23:22
-Author: mcxiaoke
-Category: Android
-Tags: Android, Phone, Network
-Slug: android-get-phone-and-network-info
-
+title: Android中检测手机网络类型
+date: 2010-11-03 23:22
+author: mcxiaoke
+categories: 
+- Android
+tags: 
+- Android
+- Mobile
+- Network
+#slug: android-get-phone-and-network-info
+---
 Android中检测手机制式和移动网络类型
 
 **[还没写完，有时间再更新，并添加示例代码]**

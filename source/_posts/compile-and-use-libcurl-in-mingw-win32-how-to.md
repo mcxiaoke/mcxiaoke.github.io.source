@@ -1,10 +1,15 @@
-Title: 使用MinGW编译libcurl静态库
-Date: 2010-12-12 20:47
-Author: mcxiaoke
-Category: Develop
-Tags: C, MinGW,Windows,LibCurl
-Slug: compile-and-use-libcurl-in-mingw-win32-how-to
-
+title: 使用MinGW编译libcurl静态库
+date: 2010-12-12 20:47
+author: mcxiaoke
+categories: 
+- Develop
+tags: 
+- C
+- MinGW
+- Windows
+- Curl
+#slug: compile-and-use-libcurl-in-mingw-win32-how-to
+---
 libcurl
 7.21以后的版本在Windows下的编译比较简单，自带了MinGW和VC环境的Makefile文件，首先去Curl官网下载源代码：  
 <http://curl.haxx.se/download.html>，

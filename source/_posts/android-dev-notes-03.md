@@ -1,10 +1,13 @@
-Title: Android开发杂记（三）
-Date: 2014-06-30 14:00
-Author: mcxiaoke
-Category: Android
-Tags: Android, Tips
-Slug: android-dev-notes-03
-
+title: Android开发杂记（三）
+date: 2014-06-30 14:00
+author: mcxiaoke
+categories: 
+- Android
+tags: 
+- Android
+- Tips
+#slug: android-dev-notes-03
+---
 这是另一部分的Android开发笔记整理
 
 ###如何完全不显示一个Activity的UI

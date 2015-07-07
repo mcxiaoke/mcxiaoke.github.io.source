@@ -1,11 +1,13 @@
-Title: Android AsyncTask简单用法
-Date: 2010-10-12 10:02
-Author: mcxiaoke
-Category: Android
-Tags: Android, AsyncTask
-Slug: android-asynctask-simple-use
-
-android.os.AsyncTask  
+title: Android AsyncTask简单用法
+date: 2010-10-12 10:02
+author: mcxiaoke
+categories: 
+- Android
+tags: 
+- Android
+- AsyncTask
+#slug: android-asynctask-simple-use
+---
 
 三个泛型参数：  
 

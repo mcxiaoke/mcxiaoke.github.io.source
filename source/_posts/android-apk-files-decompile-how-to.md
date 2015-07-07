@@ -1,11 +1,13 @@
-Title: Android程序反编译流程
-Date: 2010-11-22 16:28
-Author: mcxiaoke
-Category: Android
-Tags: Android, Decompile
-Slug: android-apk-files-decompile-how-to
-
-**Android程序的反编译**
+title: Android程序反编译流程
+date: 2010-11-22 16:28
+author: mcxiaoke
+categories: 
+- Android
+tags: 
+- Android
+- Decompile
+#slug: android-apk-files-decompile-how-to
+---
 
 APK是Android
 Package的简称，是Android平台安装包的标准封装格式，实际上是标准的zip压缩文件，里面包含清单文件，数字签名文件，压缩后的资源文件，以及二进制dex字节码文件，Android程序的反编译包括两部分，三个流程，二部分是资源文件resources.arsc的反编译和字节码文件classes.dex的反编译；三流程是资源文件反编译为人类可读的XML文本格式和图片文件，字节码文件dex反编译为标准的Java压缩格式jar(标准的Java

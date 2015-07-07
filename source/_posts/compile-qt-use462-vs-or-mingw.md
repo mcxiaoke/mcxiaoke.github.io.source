@@ -1,10 +1,14 @@
-Title: Windows下编译QT 4.6.2
-Date: 2010-05-13 00:19
-Author: mcxiaoke
-Category: Develop
-Tags: Windows, QT, MinGW
-Slug: qt-4-6-2-compile-use-vs2008-or-mingw
-
+title: Windows下编译QT 4.6.2
+date: 2010-05-13 00:19
+author: mcxiaoke
+categories: 
+- Develop
+tags: 
+- Windows
+- QT
+- MinGW
+#slug: qt-4-6-2-compile-use-vs2008-or-mingw
+---
 ### 编译准备
 
 下载NOKIA网站上的QT SDK，解压或安装到相关目录。  

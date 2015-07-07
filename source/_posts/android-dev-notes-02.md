@@ -1,11 +1,14 @@
-Title: Android开发杂记（二）
-Date: 2014-02-25 16:28
-Author: mcxiaoke
-Category: Android
-Tags: Android, Tips
-Slug: android-dev-notes-02
+title: Android开发杂记（二）
+date: 2014-02-25 16:28
+author: mcxiaoke
+categories: 
+- Android
+tags: 
+- Android
+- Tips
+#slug: android-dev-notes-02
 
-
+---
 2013年下半年的Android开发过程中记录的一些经验和教训，整理出来一部分
 
 

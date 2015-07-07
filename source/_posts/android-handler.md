@@ -1,10 +1,13 @@
-Title: Android Handler使用笔记
-Date: 2010-10-09 11:00
-Author: mcxiaoke
-Category: Android
-Tags: Android, Handler
-Slug: android-handler
-
+title: Android Handler使用笔记
+date: 2010-10-09 11:00
+author: mcxiaoke
+categories: 
+- Android
+tags: 
+- Android
+- Handler
+#slug: android-handler
+---
 最近项目里要用到后台任务和多线程，看了一些资料，记录一下重点备忘。
 
 Handler可用于在主线程中处理消息队列（MessageQueue），处理其它线程发送过来的Message，例如根据后台任务的处理过程更新前台UI。  

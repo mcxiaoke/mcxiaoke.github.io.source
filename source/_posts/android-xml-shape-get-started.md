@@ -1,10 +1,13 @@
-Title: Android XML Shape使用入门
-Date: 2011-05-15 18:12
-Author: mcxiaoke
-Category: Android
-Tags: Android,Drawable
-Slug: android-xml-shape-get-started
-
+title: Android XML Shape使用入门
+date: 2011-05-15 18:12
+author: mcxiaoke
+categories: 
+- Android
+tags: 
+- Android
+- Drawable
+#slug: android-xml-shape-get-started
+---
 XML
 Drawable是google为android定义的一种声明式图形文件格式，类似于SVG，但更简单，官方文档非常少，网上有人整理了一份文档，值得细看：
 

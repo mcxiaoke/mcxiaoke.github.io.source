@@ -1,10 +1,13 @@
-Title: 关于电子阅读软件的一些想法
-Date: 2010-11-22 12:38
-Author: mcxiaoke
-Category: Thoughts
-Tags: Android, eBook
-Slug: thinking-of-design-a-ebook-reader
-
+title: 关于电子阅读软件的一些想法
+date: 2010-11-22 12:38
+author: mcxiaoke
+categories: 
+- Thoughts
+tags: 
+- Android
+- eBook
+#slug: thinking-of-design-a-ebook-reader
+---
 这是今天发在Twitter上的一些关于电子阅读软件设计和开发的一些想法的集合，分为三个部分，一是Android平台一些阅读软件的简单评测，而是电子阅读软件的功能需求分析，三是电子阅读软件UI设计原则的思考。
 
 **一、Android平台阅读软件的简单评测**

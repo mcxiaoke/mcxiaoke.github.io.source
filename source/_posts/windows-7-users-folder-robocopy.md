@@ -1,10 +1,12 @@
-Title: 转移Windows的Users文件夹
-Date: 2010-10-10 14:19
-Author: mcxiaoke
-Category: Windows
-Tags: Windows
-Slug: windows-7-users-folder-robocopy
-
+title: 转移Windows的Users文件夹
+date: 2010-10-10 14:19
+author: mcxiaoke
+categories: 
+- Windows
+tags: 
+- Windows
+#slug: windows-7-users-folder-robocopy
+---
 转移用户文件夹，默认是在C:Users
 
 ## 安装系统时可用
