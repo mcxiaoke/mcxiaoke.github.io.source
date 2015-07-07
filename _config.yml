@@ -5,9 +5,9 @@
 # Site
 title: Xiaoke's Blog
 subtitle: 未觉池塘春草梦，阶前梧叶已秋声
-description: 流水账和技术笔记
+description: 零碎的笔记
 author: mcxiaoke
-language: cn
+language: zh-Hans
 timezone:
 
 # URL
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -72,3 +72,67 @@ deploy:
   repo: git@github.com:mcxiaoke/mcxiaoke.github.io.git
   branch: master
   #message: 
+
+
+
+# =============================================================================
+# NexT Theme configuration
+# =============================================================================
+
+# 侧边栏头像
+avatar: /images/avatar.jpg
+
+# 有情链接
+links_title: Links
+# links
+links:
+
+  豆瓣一刻: http://moment.douban.com/app/
+
+# 多说帐号
+duoshuo_shortname: mcxiaoke
+
+# DISQUS 帐号 （如果已经设置 多说 帐号，此选项将被跳过）
+# disqus_shortname: your-disqus-shortname
+
+# JiaThis 分享服务
+# jiathis: false
+
+# 多说 分享服务（必须启用多说）
+# duoshuo_share: 
+
+# 社交链接，将在侧栏中显示
+social:
+  GitHub: https://github.com/mcxiaoke
+  #Twitter: your-twitter-url
+  #Weibo: your-weibo-url
+  DouBan: http://www.douban.com/people/doiv
+  Home: http://mcxiaoke.com/
+  # 等等
+
+
+# Creative Commons 4.0 International License.
+# http://creativecommons.org/
+# Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+creative_commons: by-nc-sa
+
+
+# Google 站长工具验证，请选择 `HTML Meta` 验证方式
+# See: https://www.google.com/webmasters/
+# google_site_verification: VvyjvVXcJQa0QklHipu6pwm2PJGnnchIqX7s5JbbT_0
+
+
+# Google 分析 ID
+google_analytics: UA-49960399-2
+# UA-49960399-1
+
+
+# 百度统计 ID，此 ID 是百度统计提供脚本中 hm.js? 后面那串字符，非百度统计帐号
+# baidu_analytics: 50c15455e37f70aea674ff4a663eef27
+
+# 站点起始时间
+since: 2007
+
+# =============================================================================
+# End NexT Theme configuration
+# =============================================================================
