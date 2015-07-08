@@ -72,6 +72,9 @@ deploy:
   repo: git@github.com:mcxiaoke/mcxiaoke.github.io.git
   branch: master
   #message: 
+  type: git
+  repo: git@gitcafe.com:mcxiaoke/mcxiaoke.git
+  branch: gitcafe-pages
 
 
 
