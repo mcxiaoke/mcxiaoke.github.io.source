@@ -1,4 +1,4 @@
-title: Python模块笔记之string
+title: Python标准库笔记之string
 author: mcxiaoke
 categories:
   - Python
@@ -6,6 +6,8 @@ tags:
   - Python
 date: 2015-07-15 14:40:14
 ---
+
+#### String
 
 ```python
 
