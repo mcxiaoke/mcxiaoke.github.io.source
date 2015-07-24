@@ -7,6 +7,7 @@ tags:
 - Script
 ---
 
+### 根据EXIF拍摄时间批量重命名照片
 
 ```python
 
