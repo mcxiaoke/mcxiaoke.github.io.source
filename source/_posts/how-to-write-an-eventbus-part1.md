@@ -3,7 +3,10 @@ author: mcxiaoke
 categories:
   - Android, Java
 tags:
-  - EventBus, Android, Java,HowTo
+  - EventBus
+  - Android
+  - Java
+  - HowTo
 date: 2015-08-03 11:36:27
 ---
 
