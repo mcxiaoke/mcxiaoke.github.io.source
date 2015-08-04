@@ -13,7 +13,6 @@ date: 2015-08-03 11:36:27
 ## 项目链接
 
 * [`xBus` 项目GitHub地址](https://github.com/mcxiaoke/xBus)
-* [跟我一起写 `EventBus` （一）](https://github.com/mcxiaoke/xBus/blob/master/docs/how-to-write-an-eventbus-part1.md)
 
 ## 什么是`EventBus`
 
