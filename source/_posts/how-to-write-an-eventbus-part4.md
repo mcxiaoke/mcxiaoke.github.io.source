@@ -16,9 +16,9 @@ date: 2015-08-11 14:37:25
 
 ## 系列文章
 
-* [`跟我一起写EventBus（一）`](how-to-write-an-eventbus-part1.md)
-* [`跟我一起写EventBus（二）`](how-to-write-an-eventbus-part2.md)
-* [`跟我一起写EventBus（三）`](how-to-write-an-eventbus-part2.md)
+* [`跟我一起写EventBus（一）`](/2015/08/03/how-to-write-an-eventbus-part1/)
+* [`跟我一起写EventBus（二）`](/2015/08/04/how-to-write-an-eventbus-part2/)
+* [`跟我一起写EventBus（三）`](/2015/08/10/how-to-write-an-eventbus-part3/)
 
 
 ## 概述
